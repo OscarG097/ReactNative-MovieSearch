@@ -5,7 +5,7 @@ Link Expo
 
 [IngresarLINK] (Link Expo)
 
-###Requerimientos del proyecto
+### Requerimientos del proyecto
 Consigna del proyecto
 
 ### Para utilizarlo
