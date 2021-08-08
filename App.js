@@ -29,7 +29,7 @@ console.log('Peliculas encontradas -->', state.m)
       <Text style={styles.title}>Aplicación de peliculas</Text>
 
       <TextInput
-      placeholder="Buscá tu película"
+      placeholder="Buscá la película"
       style={styles.searchBar}
       onChangeText={movie => setState(prevState => {
         return {...prevState, m: movie}
