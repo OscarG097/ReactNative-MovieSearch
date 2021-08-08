@@ -8,7 +8,7 @@ export default function App() {
 
   const apiUrl = 'http://www.omdbapi.com/?i=tt3896198&apikey=bc31501a'
   const [state, setState] = useState({
-    m: 'Buscá tu película',
+    m: '',
     results: [],
     selected: {},
   });
@@ -23,12 +23,13 @@ const search = () => {
   })
 }
 
-console.log('Pelicula buscada -->', state.m)
+console.log('Peliculas encontradas -->', state.m)
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Aplicación de peliculas</Text>
 
       <TextInput
+      placeholder="Buscá tu película"
       style={styles.searchBar}
       onChangeText={movie => setState(prevState => {
         return {...prevState, m: movie}
@@ -61,7 +62,8 @@ const styles = StyleSheet.create({
   //Estilo Container
   container: {
     flex: 1,
-    backgroundColor: '#253239',
+    // backgroundColor: '#253239',
+    backgroundColor: '#DC3545',
     alignItems: 'center',
     justifyContent: 'flex-start',
     paddingHorizontal: 20,
@@ -98,7 +100,8 @@ const styles = StyleSheet.create({
   },
   //Estilo del texto del nombre de la pelicula
   movieTitle: {
-    backgroundColor: '#445565',
+    // backgroundColor: '#445565',
+    backgroundColor: '#9A2530',
     color: '#FFFFFF',
     fontSize: 20,
     textAlign: 'center',
