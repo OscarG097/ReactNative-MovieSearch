@@ -3,7 +3,7 @@
 ## Aplicación que muestra películas consumiendo una API.
 Link Expo
 
-[IngresarLINK] (Link Expo)
+[https://expo.dev/@oscarg097/WachoGeekMobile] (Link del proyecto en Expo)
 
 ### Requerimientos del proyecto
 Consigna del proyecto
